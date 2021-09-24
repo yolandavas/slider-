@@ -1,0 +1,54 @@
+<head>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"
+  />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+  />
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $('.default-slider').slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 7000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '0',
+        arrows: false,
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <section class="home-slider" id="home">
+    <div class="default-slider slick">
+      <div class="slide">
+        <div class="slide-img parallax-effect img-slider-1"></div>
+      </div>
+      <div class="slide">
+        <div class="slide-img parallax-effect img-slider-2"></div>
+      </div>
+      <div class="slide">
+        <div class="slide-img parallax-effect img-slider-3"></div>
+      </div>
+    </div>
+  </section>
+</body>

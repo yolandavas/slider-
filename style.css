@@ -1,0 +1,29 @@
+.home-slider {
+  padding: 0;
+}
+.home-slider .default-slider,
+.home-slider .slick-list,
+.home-slider .slide-img,
+.home-slider .hero-text-wrap {
+  height:100vmin;
+  width: 100%;
+}
+
+.img-slider-1 {
+  background: url(https://blog.naturlider.com/wp-content/uploads/2020/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-slider-2 {
+  background: url(https://blog.naturlider.com/wp-content/uploads/2020/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-slider-3 {
+  background: url(https://blog.naturlider.com/wp-content/uploads/2020/03/AdobeStock_309195144-post-dia-mundial-naturaleza.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
